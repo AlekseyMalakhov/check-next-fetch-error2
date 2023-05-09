@@ -3,7 +3,10 @@ import itemsAPI from "@/lib/itemsAPI";
 
 export default function AddItem() {
     const add = async () => {
-        await itemsAPI.createItem({ title: "New Title" });
+        const res = await itemsAPI.createItem({ title: "New Title" });
+        if (!res.ok) {
+            throw new Error("Failed to add data");
+        }
     };
     return (
         <div>
