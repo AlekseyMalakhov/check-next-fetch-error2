@@ -1,15 +1,15 @@
 const items = [
     {
         id: 1,
-        title: "Porta lacus",
+        title: "Title 1",
     },
     {
         id: 2,
-        title: "Sed nunc urna123",
+        title: "Title 2",
     },
     {
         id: 3,
-        title: "Tincidunt neque",
+        title: "Title 3",
     },
 ];
 

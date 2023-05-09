@@ -8,7 +8,7 @@ export default function AddItem() {
     return (
         <div>
             <button className="bg-lime-400 mt-4" onClick={add}>
-                Add item
+                Add New Title
             </button>
         </div>
     );
